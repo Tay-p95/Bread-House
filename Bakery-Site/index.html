@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/93d4ab8e42.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Bakery Site</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="" class="logo"><img src="images/logo.png" alt="" /></a>
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#cakes">Cakes</a>
+        <a href="#cheese-cakes">Cheesecakes</a>
+        <a href="#new-arrivals">New Arrivals</a>
+        <a href="#about">About</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="icons">
+        <div class="search-icon">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="cart-icon"><i class="fa-solid fa-cart-arrow-down"></i></div>
+        <div class="menu-icon"><i class="fa-solid fa-bars"></i></div>
+      </div>
+
+      <div class="search-form">
+        <input
+          type="search"
+          name="search"
+          id="search-box"
+          placeholder="Search here..."
+        />
+        <label for="search-box" class="fa-solid fa-magnifying-glass"></label>
+      </div>
+      <div class="cart-items-container">
+        <!-- First Item -->
+        <div class="cart-item">
+          <span class="fa-solid fa-xmark"></span>
+          <img src="images/brownes.jpg" alt="brownies" />
+          <div class="content">
+            <h3>Yummy Brownies</h3>
+            <div class="price">$49.99</div>
+          </div>
+        </div>
+        <!-- Second Item -->
+        <div class="cart-item">
+          <span class="fa-solid fa-xmark"></span>
+          <img src="images/cookies1.jpg" alt="cookiies" />
+          <div class="content">
+            <h3>Chocoloate Chip Cookies</h3>
+            <div class="price">$29.99</div>
+          </div>
+        </div>
+        <!-- Third Item -->
+        <div class="cart-item">
+          <span class="fa-solid fa-xmark"></span>
+          <img src="images/cakes/cake2.jpg" alt="cakes" />
+          <div class="content">
+            <h3>Delicious Cakes</h3>
+            <div class="price">$59.99</div>
+          </div>
+        </div>
+        <!-- Fourth Item -->
+        <div class="cart-item">
+          <span class="fa-solid fa-xmark"></span>
+          <img src="images/macroons1.jpg" alt="macaroons" />
+          <div class="content">
+            <h3>Rainbow Macaroons</h3>
+            <div class="price">$9.99</div>
+          </div>
+        </div>
+        <a href="" class="btn">Order Now</a>
+      </div>
+    </header>
+    <section class="home" id="home">
+      <div class="hero">
+        <h3>Indulge in heavenly sweet delights</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum
+          dolor sit amet.
+        </p>
+        <a class="btn" href="">Get yours now</a>
+      </div>
+    </section>
+    <section class="cakes" id="cakes">
+      <h3 class="title">our <span>CAKES</span></h3>
+      <div class="wrapper">
+        <!-- Item One -->
+        <div class="cake-card">
+          <img src="images/cakes/cake1.jpg" alt="cake" />
+          <h3>chocolate cake</h3>
+          <div class="price">$22.99</div>
+          <a href="" class="btn">add to cart</a>
+        </div>
+        <!-- Item Two -->
+        <div class="cake-card">
+          <img src="images/cakes/cake2.jpg" alt="cake" />
+          <h3>cherry mango cake</h3>
+          <div class="price">$22.99 <span>$49.99</span></div>
+          <a href="" class="btn">add to cart</a>
+        </div>
+        <!-- Item three  -->
+        <div class="cake-card">
+          <img src="images/cakes/cake3.jpg" alt="cake" />
+          <h3>wedding cake</h3>
+          <div class="price">$59.99 <span>$99.99</span></div>
+          <a href="" class="btn">add to cart</a>
+        </div>
+        <!-- Item Four -->
+        <div class="cake-card">
+          <img src="images/cakes/cake4.jpg" alt="cake" />
+          <h3>peanut butter cake</h3>
+          <div class="price">$22.99</div>
+          <a href="" class="btn">add to cart</a>
+        </div>
+        <!-- Item Five -->
+        <div class="cake-card">
+          <img src="images/cakes/cake5.jpg" alt="cake" />
+          <h3>pomegranate cake</h3>
+          <div class="price">$22.99</div>
+          <a href="" class="btn">add to cart</a>
+        </div>
+        <!-- Item Six-->
+        <div class="cake-card">
+          <img src="images/cakes/cake6.jpg" alt="cake" />
+          <h3>lime cake</h3>
+          <div class="price">$22.99</div>
+          <a href="" class="btn">add to cart</a>
+        </div>
+      </div>
+    </section>
+    <section class="cheese-cakes" id="cheese-cakes">
+      <h1 class="title">our <span>CHEESECAKES</span></h1>
+      <div class="wrapper">
+        <!-- CheeseCake One -->
+        <div class="cheese-card">
+          <div class="icons">
+            <a class="fa-solid fa-cart-shopping"></a>
+            <a class="fa-solid fa-heart"></a>
+            <a class="fa-solid fa-eye"></a>
+          </div>
+          <div class="img">
+            <img
+              src="images/cheesecake/cheesecake1.jpg"
+              alt="pink cheesecake"
+            />
+          </div>
+          <div class="content">
+            <h3>Raspberry Marble Cheesecake</h3>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half"></i>
+            </div>
+            <div class="price">$12.99 <span>$19.99</span></div>
+          </div>
+        </div>
+        <!-- CheeseCake Two -->
+        <div class="cheese-card">
+          <div class="icons">
+            <a class="fa-solid fa-cart-shopping"></a>
+            <a class="fa-solid fa-heart"></a>
+            <a class="fa-solid fa-eye"></a>
+          </div>
+          <div class="img">
+            <img
+              src="images/cheesecake/cheesecake2.jpg"
+              alt="pink cheesecake"
+            />
+          </div>
+          <div class="content">
+            <h3>Mango Strawberry Cheesecake</h3>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half"></i>
+            </div>
+            <div class="price">$12.99 <span>$19.99</span></div>
+          </div>
+        </div>
+        <!-- CheeseCake Three -->
+        <div class="cheese-card">
+          <div class="icons">
+            <a class="fa-solid fa-cart-shopping"></a>
+            <a class="fa-solid fa-heart"></a>
+            <a class="fa-solid fa-eye"></a>
+          </div>
+          <div class="img">
+            <img
+              src="images/cheesecake/cheesecake3.jpg"
+              alt="pink cheesecake"
+            />
+          </div>
+          <div class="content">
+            <h3>New York Cherry Cheesecake</h3>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half"></i>
+            </div>
+            <div class="price">$12.99 <span>$19.99</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="new-arrivals" id="new-arrivals">
+      <h1 class="title">new <span>ARRIVALS</span></h1>
+      <div class="wrapper">
+        <!-- First new arrivals Card -->
+        <div class="card">
+          <div class="img">
+            <img src="images/macroons1.jpg" />
+          </div>
+          <div class="content">
+            <a class="arrival-text">Rainbow Macaroons</a>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <a class="btn">explore</a>
+          </div>
+        </div>
+        <!-- Second new arrivals Card -->
+        <div class="card">
+          <div class="img">
+            <img src="images/cookies2.jpg" />
+          </div>
+          <div class="content">
+            <a class="arrival-text">Fudge Cookies</a>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <a class="btn">explore</a>
+          </div>
+        </div>
+        <!-- Third new arrivals Card -->
+        <div class="card">
+          <div class="img">
+            <img src="images/cookies1.jpg " />
+          </div>
+          <div class="content">
+            <a class="arrival-text">Ginger Chocolate Cookies</a>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <a class="btn">explore</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about" id="about">
+      <h1 class="title">about <span>uS</span></h1>
+      <div class="container">
+        <div class="img">
+          <img src="images/cheesecake/cheesecake1.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>What makes us different?</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+            numquam magni sint id neque ipsam sed architecto sunt doloribus.
+            Sequi.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+            deserunt fugit iusto!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+            numquam magni sint id neque ipsam sed architecto sunt doloribus.
+            Sequi.
+          </p>
+          <a class="btn">learn more</a>
+        </div>
+      </div>
+    </section>
+    <section class="review" id="reviews">
+      <h1 class="title">customer <span>REVIEWS</span></h1>
+      <div class="wrapper">
+        <!-- Review One -->
+        <div class="review-card">
+          <div class="img">
+            <img src="images/quote.png" alt="quote" />
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora,
+              voluptatem unde. Quasi, laborum.
+            </p>
+            <img class="customer" src="images/man1.jpg" alt="" />
+            <h3>John Doe</h3>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half"></i>
+            </div>
+          </div>
+        </div>
+        <!-- Review Two -->
+        <div class="review-card">
+          <div class="img">
+            <img src="images/quote.png" alt="quote" />
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora,
+              voluptatem unde. Quasi, laborum.
+            </p>
+            <img class="customer" src="images/woman1.jpg" alt="" />
+            <h3>Jane Doe</h3>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half"></i>
+            </div>
+          </div>
+        </div>
+        <!-- Review Three -->
+        <div class="review-card">
+          <div class="img">
+            <img src="images/quote.png" alt="quote" />
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora,
+              voluptatem unde. Quasi, laborum.
+            </p>
+            <img class="customer" src="images/woman2.jpg" alt="" />
+            <h3>Janet Doe</h3>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <h1 class="title"><span>contact</span> us</h1>
+      <div class="content">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.98357527342!2d144.96452449999998!3d-37.8138537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642b584c18be7%3A0x1a3bae189d065b99!2sBourke%20Street%20Mall!5e0!3m2!1sen!2sau!4v1713400679434!5m2!1sen!2sau"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <form action="">
+          <h3>Get In touch</h3>
+          <div class="input-box">
+            <span class="fa-solid fa-user"></span>
+            <input type="text" name="name" placeholder="name" />
+          </div>
+          <div class="input-box">
+            <span class="fa-solid fa-envelope"></span>
+            <input type="email" name="email" placeholder="email" />
+          </div>
+          <div class="input-box">
+            <span class="fa-solid fa-phone"></span>
+            <input type="text" name="telephone" placeholder="telephone" />
+          </div>
+          <a class="btn">contact now</a>
+        </form>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="social-media">
+        <a href="" class="fa-brands fa-facebook"></a>
+        <a href="" class="fa-brands fa-twitter"></a>
+        <a href="" class="fa-brands fa-instagram"></a>
+        <a href="" class="fa-brands fa-linkedin"></a>
+        <a href="" class="fa-brands fa-pinterest"></a>
+      </div>
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#cakes">Cakes</a>
+        <a href="#cheese-cakes">Cheesecakes</a>
+        <a href="#new-arrivals">New Arrivals</a>
+        <a href="#about">About</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="credits">
+        <!-- created by <span>Taonga Phiri</span> |  -->
+        all rights reserved.
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
